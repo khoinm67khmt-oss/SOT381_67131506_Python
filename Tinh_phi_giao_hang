@@ -1,0 +1,15 @@
+"""Tính phí Giao hàng: Viết chương trình tính phí giao hàng.
+Nhập vào tổng giá trị đơn hàng.
+Nếu đơn hàng trên 500.000đ, miễn phí giao hàng (0đ).
+Nếu đơn hàng từ 100.000đ đến 500.000đ, phí là 20.000đ.
+Nếu đơn hàng dưới 100.000đ, phí là 35.000đ. """
+
+a = int(input("Nhap tong gia tri don hang cua ban: "))
+if a > 500000:
+  print("Ban duoc mien phi giao hang")
+elif 100000 <= a <= 500000:
+  print("Phi giao hang la: 20.000đ")
+else:
+  print("Phi giao hang la: 35.000đ")
+ 
+ 
