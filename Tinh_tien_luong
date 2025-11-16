@@ -5,3 +5,11 @@ Nếu số giờ làm <= 40: Lương = số giờ x mức lương
 Nếu số giờ làm > 40: Lương = 40 x mức lương + số giờ OT x mức lương x 1.5
 (Trong đó số giờ OT = số giờ làm việc - 40) """
 
+a = int(float(input("Nhap so gio lam thuc te: ")))
+b = int(float(input("Nhap luong cho moi gio lam viec (nghin dong): ")))
+if a <= 40:
+  c = a * b
+  print(f"Luong cua ban cho {a} gio lam viec la:{c}(nghin dong)")
+else:
+  c = 40 * b + (a - 40) * b * 1.5
+  print(f"Luong cua ban cho {a} gio lam viec la:{c}(nghin dong)")
