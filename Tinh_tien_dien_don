@@ -1,0 +1,3 @@
+a = int(float(input("Nhap so kWh da tieu thu: ")))
+b = a * 2
+print(f"Tien dien ban phai tra la:{b}.000(VND)")
