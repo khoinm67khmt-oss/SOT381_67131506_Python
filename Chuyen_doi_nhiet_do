@@ -1,0 +1,4 @@
+a = int(float(input("Nhap nhiet do muon chuyen doi (Celsius): ")))
+print("Sau khi chuyen doi la (Fahrenheit):")
+b = (a * 9/5) + 32
+print(int(b))
