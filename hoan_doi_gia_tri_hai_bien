@@ -1,0 +1,6 @@
+a = int(float(input("Nhap so thu nhat: ")))
+b = int(float(input("Nhap so thu hai: ")))
+print("Gia tri sau khi thay doi la: ")
+a, b = b, a
+print(f"so thu nhat la:{a}")
+print(f"so thu hai la:{b}")
