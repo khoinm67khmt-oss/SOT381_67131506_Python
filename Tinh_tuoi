@@ -1,0 +1,15 @@
+from datetime import datetime
+a = input("Nhập ngày sinh (dd/mm/yyyy): ")
+b = datetime.strptime(a, "%d/%m/%Y")
+c = datetime.today()
+age = c.year - b.year
+# Kiểm tra đã qua sinh nhật năm nay chưa
+d = b.replace(year=c.year)
+if c < d:
+    age -= 1
+    print("Bạn chưa đến sinh nhật năm nay")
+elif c == d:
+    print("Hôm nay là sinh nhật của bạn! 🎉🥳")
+else:
+    print("Bạn đã qua sinh nhật năm nay.")
+print("Tuổi của bạn:", age)
