@@ -1,5 +1,5 @@
 n = int(input("Nhap so n: "))
 tong = 0
-for i in range (1,n+1):
-  tong += i
-  print(tong, end=" ")
+for a in range (1,n+1):
+  tong = tong + a
+print(f"\nTổng từ 1 đến {n} = {tong} ")
