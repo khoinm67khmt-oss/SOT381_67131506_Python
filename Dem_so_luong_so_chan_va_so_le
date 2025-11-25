@@ -1,1 +1,15 @@
-khikkiihj
+n = int(input("Nhap so n: "))
+chan = 0
+le = 0
+print(f"Cac so chan tu 1 den {n} la:")
+for i in range (1,n+1):
+    if i%2 == 0:
+      print(i, end=" ")
+      chan = chan + 1
+print(f"\n\tSo luong so le tu 1 den {n} la:{chan}")
+print(f"Cac so le tu 1 den {n} la:")
+for a in range (1,n+1):
+    if a%2 != 0:
+      print(a, end=" ")
+      le = le + 1
+print(f"\n\tSo luong so le tu 1 den {n} la:{le}")
