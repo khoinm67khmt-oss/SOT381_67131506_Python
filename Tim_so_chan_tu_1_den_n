@@ -1,1 +1,9 @@
-.
+n = int(input("Nhap so n: "))
+a = False
+print(f"Cac so chan tu 1 den {n} la:")
+for i in range (1,n+1):
+    if i%2 == 0:
+      print(i, end=" ")
+      a = True
+if not a:
+  print("Khong co")
