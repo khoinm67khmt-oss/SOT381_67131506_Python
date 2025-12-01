@@ -1,4 +1,5 @@
 a = int(float(input("Nhap nhiet do muon chuyen doi (Celsius): ")))
-print("Sau khi chuyen doi la (Fahrenheit):")
 b = (a * 9/5) + 32
-print(int(b))
+c = a - 273
+print(f"Sau khi chuyen doi la (Fahrenheit):{b}")
+print(f"Sau khi chuyen doi la (Kelvin):{c}")
