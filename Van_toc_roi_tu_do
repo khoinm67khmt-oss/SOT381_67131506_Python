@@ -1,0 +1,7 @@
+t = float(input("Nhap thoi gian roi t(s):"))
+h = float(input("Nhap thoi gian h(m):"))
+g = 9.8
+v1 = g * t
+v2 = (2 * g * h) ** 1/2
+print(f"Van toc roi tu do voi thoi gian roi {t} voi gia toc {g} la:{v1}")
+print(f"Van toc roi tu do voi do cao roi {h} voi gia toc {g} la:{v2}")
