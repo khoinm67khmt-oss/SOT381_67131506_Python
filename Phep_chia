@@ -1,5 +1,5 @@
-m = int(input("Nhap so m:"))
-n = int(input("Nhap so n:"))
+m = float(input("Nhap so m:"))
+n = float(input("Nhap so n:"))
 nguyen =  m // n 
 du = m%n
 print(f"Phan nguyen cua m chia n la:{nguyen}")
