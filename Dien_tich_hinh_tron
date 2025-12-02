@@ -1,0 +1,4 @@
+import math 
+r = float(input("Nhap ban kinh:"))
+s = math.pi * (r ** 2)
+print(f"Dien tich hinh tron la:{s}")
