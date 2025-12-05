@@ -1,0 +1,15 @@
+a = int(input("Nhap so giay: "))
+if a < 0:
+    print("Thoi gian bi loi")
+else:
+    d = 0  
+    b = 0  
+    c = 0  
+    while a >= 3600:
+        a -= 3600
+        d += 1
+    while a >= 60:
+        a -= 60
+        b += 1
+        c = a
+print(f"Thoi gian la: {d} gio {b} phut {c} giay")
