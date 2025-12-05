@@ -4,17 +4,13 @@ def n(a):
     a = -a
   else:
     t = "0"
-  
   k = ""
   if a == 0: 
     return t + "0"
-  
   while a > 0:
     k = str(a%2) + k
     a //= 2
-  
   return t + k
-
 d = int(input("Nhap 1 so nguyen:"))
 e = n(d)
 print(f"Ket qua sau khi chuyen sang nhi phan la:{e}")
