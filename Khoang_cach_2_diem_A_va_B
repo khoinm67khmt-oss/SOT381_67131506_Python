@@ -1,0 +1,6 @@
+a = float(input("Nhap hoanh do diem A:"))
+b = float(input("Nhap tung do diem A:"))
+c = float(input("Nhap hoanh do diem B:"))
+d = float(input("Nhap tung do diem B:"))
+e = ((c - a)**2 + (d - b)**2)**(1/2)
+print(f"Khoang cach 2 diem A va B:{e}")
