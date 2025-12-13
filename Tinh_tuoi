@@ -9,7 +9,7 @@ if c < d:
     age -= 1
     print("Bạn chưa đến sinh nhật năm nay")
 elif c == d:
-    print("Hôm nay là sinh nhật của bạn! 🎉🥳")
+    print("Hôm nay là sinh nhật của bạn!")
 else:
     print("Bạn đã qua sinh nhật năm nay.")
 print("Tuổi của bạn:", age)
